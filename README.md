@@ -1,1 +1,2 @@
 # devops-engineer-from-scratch-project-313
+[![CI](https://github.com/MariiaMerkel/devops-engineer-from-scratch-project-313/actions/workflows/ci.yml/badge.svg)](https://github.com/MariiaMerkel/devops-engineer-from-scratch-project-313/actions/workflows/ci.yml)
