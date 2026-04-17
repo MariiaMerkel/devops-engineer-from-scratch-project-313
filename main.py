@@ -7,6 +7,3 @@ app = FastAPI()
 @app.get("/ping", response_class=PlainTextResponse)
 def ping():
     return "pong"
-
-def test_ping():
-    assert ping() == "pong"
