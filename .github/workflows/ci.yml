@@ -22,6 +22,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest ruff
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -r requirements.txt
 
       - name: Run linter
         run: ruff check .
