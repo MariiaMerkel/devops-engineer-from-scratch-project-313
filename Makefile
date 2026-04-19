@@ -4,10 +4,10 @@ run:
 .PHONY: test lint format
 
 test:
-	pytest
+	uv run pytest
 
 lint:
-	ruff check .
+	uv run ruff check .
 
 format:
-	ruff format .
+	uv run ruff format .
